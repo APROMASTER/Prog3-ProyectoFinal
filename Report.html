@@ -1,0 +1,1220 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">12/10/2023 10:18:42 PM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod</p>
+            <p class="text-sm">
+              <span>10:18:48 PM</span> / <span>881.7 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod</h5>
+                  <span class='badge badge-success'>12/10/2023 10:18:48 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:18:49 PM</span>
+                  <span class='badge badge-default'>881.7 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod.png' src="Results\WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod.png">
+     <div class='title'>WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18 PM</td>
+        <td>
+WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.BuyProcess.CanDoBuyProccess</p>
+            <p class="text-sm">
+              <span>10:18:55 PM</span> / <span>1116.43 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.BuyProcess.CanDoBuyProccess</h5>
+                  <span class='badge badge-success'>12/10/2023 10:18:55 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:18:56 PM</span>
+                  <span class='badge badge-default'>1116.43 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.BuyProcess.CanDoBuyProccess.png' src="Results\WebUnitTests.BuyProcess.CanDoBuyProccess.png">
+     <div class='title'>WebUnitTests.BuyProcess.CanDoBuyProccess Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:18 PM</td>
+        <td>
+WebUnitTests.BuyProcess.CanDoBuyProccess run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly</p>
+            <p class="text-sm">
+              <span>10:19:03 PM</span> / <span>708.86 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:03 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:03 PM</span>
+                  <span class='badge badge-default'>708.86 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly.png' src="Results\WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly.png">
+     <div class='title'>WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod</p>
+            <p class="text-sm">
+              <span>10:19:10 PM</span> / <span>820.08 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:10 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:11 PM</span>
+                  <span class='badge badge-default'>820.08 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod.png' src="Results\WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod.png">
+     <div class='title'>WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.CardBuyMethod.CanCardBuyMethodStart</p>
+            <p class="text-sm">
+              <span>10:19:18 PM</span> / <span>1000.63 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.CardBuyMethod.CanCardBuyMethodStart</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:18 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:19 PM</span>
+                  <span class='badge badge-default'>1000.63 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.CardBuyMethod.CanCardBuyMethodStart.png' src="Results\WebUnitTests.CardBuyMethod.CanCardBuyMethodStart.png">
+     <div class='title'>WebUnitTests.CardBuyMethod.CanCardBuyMethodStart Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.CardBuyMethod.CanCardBuyMethodStart run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.DeliveryInfo.CanDeliveryInfoStart</p>
+            <p class="text-sm">
+              <span>10:19:27 PM</span> / <span>1266.04 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.DeliveryInfo.CanDeliveryInfoStart</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:27 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:28 PM</span>
+                  <span class='badge badge-default'>1266.04 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.DeliveryInfo.CanDeliveryInfoStart.png' src="Results\WebUnitTests.DeliveryInfo.CanDeliveryInfoStart.png">
+     <div class='title'>WebUnitTests.DeliveryInfo.CanDeliveryInfoStart Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.DeliveryInfo.CanDeliveryInfoStart run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus</p>
+            <p class="text-sm">
+              <span>10:19:35 PM</span> / <span>1500.07 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:35 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:36 PM</span>
+                  <span class='badge badge-default'>1500.07 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus.png' src="Results\WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus.png">
+     <div class='title'>WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ProductCatalog.IsShowingAllProducts</p>
+            <p class="text-sm">
+              <span>10:19:43 PM</span> / <span>551.03 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ProductCatalog.IsShowingAllProducts</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:43 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:44 PM</span>
+                  <span class='badge badge-default'>551.03 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ProductCatalog.IsShowingAllProducts.png' src="Results\WebUnitTests.ProductCatalog.IsShowingAllProducts.png">
+     <div class='title'>WebUnitTests.ProductCatalog.IsShowingAllProducts Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.ProductCatalog.IsShowingAllProducts run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ProductCatalog.AreProductsShowedCorrectly</p>
+            <p class="text-sm">
+              <span>10:19:51 PM</span> / <span>80.6 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ProductCatalog.AreProductsShowedCorrectly</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:51 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:51 PM</span>
+                  <span class='badge badge-default'>80.6 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ProductCatalog.AreProductsShowedCorrectly.png' src="Results\WebUnitTests.ProductCatalog.AreProductsShowedCorrectly.png">
+     <div class='title'>WebUnitTests.ProductCatalog.AreProductsShowedCorrectly Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.ProductCatalog.AreProductsShowedCorrectly run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ProductCatalog.AreProductsEasyToInteract</p>
+            <p class="text-sm">
+              <span>10:19:58 PM</span> / <span>260.05 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ProductCatalog.AreProductsEasyToInteract</h5>
+                  <span class='badge badge-success'>12/10/2023 10:19:58 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:19:58 PM</span>
+                  <span class='badge badge-default'>260.05 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ProductCatalog.AreProductsEasyToInteract.png' src="Results\WebUnitTests.ProductCatalog.AreProductsEasyToInteract.png">
+     <div class='title'>WebUnitTests.ProductCatalog.AreProductsEasyToInteract Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:19 PM</td>
+        <td>
+WebUnitTests.ProductCatalog.AreProductsEasyToInteract run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.RefundProcess.CanRefundProcessStart</p>
+            <p class="text-sm">
+              <span>10:20:04 PM</span> / <span>1501.36 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.RefundProcess.CanRefundProcessStart</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:04 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:05 PM</span>
+                  <span class='badge badge-default'>1501.36 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.RefundProcess.CanRefundProcessStart.png' src="Results\WebUnitTests.RefundProcess.CanRefundProcessStart.png">
+     <div class='title'>WebUnitTests.RefundProcess.CanRefundProcessStart Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.RefundProcess.CanRefundProcessStart run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.RefundProcess.CheckThatRefundIsCompleted</p>
+            <p class="text-sm">
+              <span>10:20:11 PM</span> / <span>1641.41 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.RefundProcess.CheckThatRefundIsCompleted</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:11 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:13 PM</span>
+                  <span class='badge badge-default'>1641.41 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.RefundProcess.CheckThatRefundIsCompleted.png' src="Results\WebUnitTests.RefundProcess.CheckThatRefundIsCompleted.png">
+     <div class='title'>WebUnitTests.RefundProcess.CheckThatRefundIsCompleted Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.RefundProcess.CheckThatRefundIsCompleted run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.SearchBar.IsSeachBarShowingCorrectly</p>
+            <p class="text-sm">
+              <span>10:20:20 PM</span> / <span>108 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.SearchBar.IsSeachBarShowingCorrectly</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:20 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:21 PM</span>
+                  <span class='badge badge-default'>108 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.SearchBar.IsSeachBarShowingCorrectly.png' src="Results\WebUnitTests.SearchBar.IsSeachBarShowingCorrectly.png">
+     <div class='title'>WebUnitTests.SearchBar.IsSeachBarShowingCorrectly Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.SearchBar.IsSeachBarShowingCorrectly run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.SearchBar.IsSearchBarEasyToUse</p>
+            <p class="text-sm">
+              <span>10:20:27 PM</span> / <span>431.29 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.SearchBar.IsSearchBarEasyToUse</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:27 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:27 PM</span>
+                  <span class='badge badge-default'>431.29 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.SearchBar.IsSearchBarEasyToUse.png' src="Results\WebUnitTests.SearchBar.IsSearchBarEasyToUse.png">
+     <div class='title'>WebUnitTests.SearchBar.IsSearchBarEasyToUse Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.SearchBar.IsSearchBarEasyToUse run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.SearchBar.IsSearchBarWorkingProperly</p>
+            <p class="text-sm">
+              <span>10:20:34 PM</span> / <span>836.67 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.SearchBar.IsSearchBarWorkingProperly</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:34 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:35 PM</span>
+                  <span class='badge badge-default'>836.67 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.SearchBar.IsSearchBarWorkingProperly.png' src="Results\WebUnitTests.SearchBar.IsSearchBarWorkingProperly.png">
+     <div class='title'>WebUnitTests.SearchBar.IsSearchBarWorkingProperly Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.SearchBar.IsSearchBarWorkingProperly run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly</p>
+            <p class="text-sm">
+              <span>10:20:42 PM</span> / <span>257.6 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:42 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:42 PM</span>
+                  <span class='badge badge-default'>257.6 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly.png' src="Results\WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly.png">
+     <div class='title'>WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart</p>
+            <p class="text-sm">
+              <span>10:20:48 PM</span> / <span>686.68 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:48 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:49 PM</span>
+                  <span class='badge badge-default'>686.68 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart.png' src="Results\WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart.png">
+     <div class='title'>WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart</p>
+            <p class="text-sm">
+              <span>10:20:55 PM</span> / <span>458.63 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart</h5>
+                  <span class='badge badge-success'>12/10/2023 10:20:55 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:20:56 PM</span>
+                  <span class='badge badge-default'>458.63 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart.png' src="Results\WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart.png">
+     <div class='title'>WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:20 PM</td>
+        <td>
+WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.StartPage.IsStartPageLoaded</p>
+            <p class="text-sm">
+              <span>10:21:01 PM</span> / <span>13.02 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.StartPage.IsStartPageLoaded</h5>
+                  <span class='badge badge-success'>12/10/2023 10:21:01 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:21:01 PM</span>
+                  <span class='badge badge-default'>13.02 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.StartPage.IsStartPageLoaded.png' src="Results\WebUnitTests.StartPage.IsStartPageLoaded.png">
+     <div class='title'>WebUnitTests.StartPage.IsStartPageLoaded Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:21 PM</td>
+        <td>
+WebUnitTests.StartPage.IsStartPageLoaded run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">WebUnitTests.StartPage.IsStartPageShowingSomething</p>
+            <p class="text-sm">
+              <span>10:21:10 PM</span> / <span>88.2 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">WebUnitTests.StartPage.IsStartPageShowingSomething</h5>
+                  <span class='badge badge-success'>12/10/2023 10:21:10 PM</span>
+                  <span class='badge badge-danger'>12/10/2023 10:21:10 PM</span>
+                  <span class='badge badge-default'>88.2 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='Results\WebUnitTests.StartPage.IsStartPageShowingSomething.png' src="Results\WebUnitTests.StartPage.IsStartPageShowingSomething.png">
+     <div class='title'>WebUnitTests.StartPage.IsStartPageShowingSomething Success Screenshot</div>
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:21 PM</td>
+        <td>
+WebUnitTests.StartPage.IsStartPageShowingSomething run successfully        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>12/10/2023 10:18:42 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>12/10/2023 10:21:11 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>20</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>20</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'><b>20</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "WebUnitTests.BuyProcess.CanBuyProccessChangeBuyMethod":881.7021,"WebUnitTests.BuyProcess.CanDoBuyProccess":1116.4344,"WebUnitTests.BuyProcess.IsBuyProccessStartCorrectly":708.8566,"WebUnitTests.CardBuyMethod.CanChangeToCardBuyMethod":820.0838,"WebUnitTests.CardBuyMethod.CanCardBuyMethodStart":1000.6275,"WebUnitTests.DeliveryInfo.CanDeliveryInfoStart":1266.0431,"WebUnitTests.DeliveryInfo.CanDeliveryInfoShowPackageStatus":1500.0671,"WebUnitTests.ProductCatalog.IsShowingAllProducts":551.0261,"WebUnitTests.ProductCatalog.AreProductsShowedCorrectly":80.6013,"WebUnitTests.ProductCatalog.AreProductsEasyToInteract":260.0524,"WebUnitTests.RefundProcess.CanRefundProcessStart":1501.3565,"WebUnitTests.RefundProcess.CheckThatRefundIsCompleted":1641.4115,"WebUnitTests.SearchBar.IsSeachBarShowingCorrectly":108.0034,"WebUnitTests.SearchBar.IsSearchBarEasyToUse":431.2861,"WebUnitTests.SearchBar.IsSearchBarWorkingProperly":836.6704,"WebUnitTests.ShoppingCart.IsShoppingCartShowingCorrectly":257.5964,"WebUnitTests.ShoppingCart.CanProductsBeAddedToShoppingCart":686.6841,"WebUnitTests.ShoppingCart.CanProductsBeDeletedToShoppingCart":458.6315,"WebUnitTests.StartPage.IsStartPageLoaded":13.0167,"WebUnitTests.StartPage.IsStartPageShowingSomething":88.2009 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 20,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 20,
+
+passParent:20,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:20,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>

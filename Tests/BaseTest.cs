@@ -17,7 +17,7 @@ public class BaseTest : IDisposable
         _output = outputHelper;
         Driver = new ChromeDriver();
         Driver.Manage().Window.Maximize();
-        Driver.Url = "https://twitter.com";
+        Driver.Url = "file:///T:/@ITLA/6to%20Cuatrimestre/Programacion%20III/Prog3-ProyectoFinal/web/index.html";
 
         currentTestName = _output.GetTestName();
         CurrentTest = ReportUtil.Extent.CreateTest(currentTestName);

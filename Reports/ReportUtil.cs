@@ -8,7 +8,7 @@ public class ReportUtil
 
     public static void Initialize()
     {
-        string reportPath = @"C:\@ITLA\6to Cuatrimestre\Programacion III\Prog3-Tarea4\Report.html";
+        string reportPath = @"T:\@ITLA\6to Cuatrimestre\Programacion III\Prog3-ProyectoFinal\TestProgram\Report.html";
         var spark = new ExtentSparkReporter(reportPath);
         Extent = new ExtentReports();
         Extent.AttachReporter(spark);
